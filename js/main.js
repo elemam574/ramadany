@@ -32,7 +32,7 @@ let dateString = dateShow.toLocaleDateString('ar-EG', options);
 let showDay = document.getElementById("toDay").innerHTML = dateString;
 
 let hijri = document.getElementById("hijriDate");
-fetch("http://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt&method=8")
+fetch("https://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt&method=8")
 .then((response => response.json()))
 .then((myData) => {
     let hijriArNums = ["٣", "١", "٢", "٤", "٥", "٦", "٧", "٨", "٩", "١٠", "١١", "١٢", "١٣", "١٤", "١٥", "١٦", "١٧", "١٨", "١٩", "٢٠", "٢١", "٢٢", "٢٣", "٢٤", "٢٥", "٢٦", "٢٧", "٢٨", "٢٩", "٣٠"];
