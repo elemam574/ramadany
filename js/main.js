@@ -43,6 +43,16 @@ fetch("https://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt&method=
     let hijriDateString = hijriDateShow.toLocaleDateString('ar-SA', hijriOptions);
     hijri.innerHTML = `${hijriArNums[myData.data.date.hijri.day - 1]} ${myData.data.date.hijri.month.ar} ${hijriDateString}`;
 });
+// let hijri = document.getElementById("hijriDate");
+// let hijriDateShow = new Date();
+// let hijriOptions = {
+//     weekday: 'long',
+//     year: 'numeric',
+//     month: 'short',
+//     day: 'numeric',
+// };
+// let hijriDateString = hijriDateShow.toLocaleDateString('ar-SA', hijriOptions);
+// hijri.innerHTML = hijriDateString;
 // myData.data.date.hijri.year
 // let pray = document.querySelector('.pra');
 // fetch("http://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt&method=8")
