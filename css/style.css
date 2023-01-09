@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+body {
+    background-color: #070b0f;
+    color: #faf2e7;
+    position: relative;
+    overflow-x: hidden;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: 0.5s;
+}
+.active {
+    background-color: #070b0f;
+}
+.head .logo {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.head .logo h1 a{
+    font-family: 'Vibes', cursive;
+    letter-spacing: 2px;
+    font-size: 1.9em;
+    color: #f5d3a6;
+    text-decoration: none;
+}
+.head .logo p {
+    color: #ace2e4;
+    margin-top: -15px;
+    margin-right: 5px;
+}
+.head .logo .fa-solid {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-size: 1.4em;
+    text-shadow: 0 0 5px #fff;
+}
+.head .links {
+    margin-top: 10px;
+}
+.head .links nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.head .links nav ul li {
+    margin: 0 15px;
+}
+.links nav ul li a {
+    color: #faf2e7;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.links nav ul li:nth-child(2)::before {
+    content: "|";
+    margin-left: 30px;
+}
+.links nav ul li:nth-child(3)::before {
+    content: "|";
+    margin-left: 30px;
+}
+.links nav ul li:nth-child(4)::before {
+    content: "|";
+    margin-left: 30px;
+}
+.links nav ul li:nth-child(5)::before {
+    content: "|";
+    margin-left: 30px;
+}
+.head .links .navbar .bars {
+    display: none;
+}
+.main {
+    min-height: 60vh;
+    margin: 270px auto;
+    text-align: center;
+}
+.main h1 {
+    color: #98f386;
+    font-size: 3.7em;
+    padding: 0 250px;
+}
+.main .ema-fst {
+    color: #f0bf9f;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.main input {
+    width: 300px;
+    height: 100px;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: transparent;
+    color: #faf2e7;
+    border: 3px solid #fafafa;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main input:hover {
+    color: #070b0f;
+    background-color: #fafafa;
+}
+.main .ema-sec {
+    color: #faebd7;
+    margin: 40px 0;
+    font-size: 1.8em;
+}
+.main .ema-sec a {
+    text-decoration: none;
+    color: #faebd7;
+    margin-left: 10px;
+}
+.services {
+    padding: 10px 100px;
+    position: relative;
+    transition: 0.6s all ease-in-out;
+}
+.services .intro-txt {
+    height: 500px;
+}
+.services .intro-txt h1 {
+    color: #faebd7;
+    font-size: 6.6em;
+    text-shadow: 0 0 10px #013101;
+}
+.services .intro-txt p {
+    color: #f0bf9f;
+    font-size: 2.2em;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+hr {
+    box-shadow: 0 2px 7px 1px #fff;
+}
+.services .series {
+    width: 100%;
+    height: 20px;
+}
+.services .series h2 {
+    color: #ace2e4;
+    font-size: 3.2em;
+}
+.services .series p {
+    color: #faebd7;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.services .series p:last-child a {
+    text-decoration: none;
+    color: #f8f190;
+    transition: color .3s ease-in-out, text-shadow .3s ease-in-out;
+}
+.services .series p:last-child a:hover{
+    color: #f5ec6a;
+    text-shadow: 0 0 5px #726a00;
+}
+.mySlides {
+    display: none;
+}
+.services .w3-content {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-150%, -100px);
+}
+.services .w3-content img {
+    width:380px;
+    height:410px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.services .w3-content button {
+    border: 1px solid #fafafa;
+    background-color: transparent;
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    color: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.services .w3-content .w3-display-left:hover {
+    background-color: #fafafa;
+    color: #070b0f;
+}
+.services .w3-content .w3-display-right:hover {
+    background-color: #fafafa;
+    color: #070b0f;
+}
+.services .imsakia {
+    padding: 100px 0;
+    width: 100%;
+    height: 100px;
+}
+.services .imsakia iframe {
+    width: 600px;
+    height: 200px;
+}
+.services .imsakia h2 {
+    color: #ace2e4;
+    font-size: 3.2em;
+}
+.services .imsakia h3 {
+    color: #f0bf9f;
+    font-size: 3.8em;
+}
+#toDay {
+    color: #f8f190;
+    font-size: 2em;
+}
+#hijriDate {
+    color: #f8f190;
+    font-size: 2em;
+}
+.prayers {
+    margin-top: 20px;
+}
+.prayers h4 {
+    color: #f0bf9f;
+    font-size: 1.6em;
+}
+.prayers .pra {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.prayers .pra .pry {
+    margin-right: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.prayers .pra .pry:first-child {
+    margin: 0;
+}
+.services .imsakia {
+    position: relative;
+}
+.services .imsakia p:last-child a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #f8f190;
+    transition: color .3s ease-in-out, text-shadow .3s ease-in-out;
+}
+.services .imsakia p:last-child a:hover{
+    color: #f5ec6a;
+    text-shadow: 0 0 5px #726a00;
+}
+.services .imsakia img {
+    position: absolute;
+    top: 275px;
+    left: 70px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+.hr3 {
+    margin-top: 720px;
+}
+.services .doaa {
+    padding: 100px 0;
+    position: relative;
+}
+.services .doaa h2 {
+    color: #ace2e4;
+    font-size: 3.2em;
+}
+.services .doaa p {
+    color: #faebd7;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.services .doaa img {
+    width: 300px;
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+.services .doaa p:last-child a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #f8f190;
+    transition: color .3s ease-in-out, text-shadow .3s ease-in-out;
+}
+.services .doaa p:last-child a:hover{
+    color: #f5ec6a;
+    text-shadow: 0 0 5px #726a00;
+}
+.services .quran {
+    padding: 100px 0;
+    position: relative;
+}
+.services .quran h2 {
+    color: #ace2e4;
+    font-size: 3.2em;
+}
+.services .quran p {
+    color: #faebd7;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.services .quran img {
+    width: 300px;
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+.services .quran p:last-child a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #f8f190;
+    transition: color .3s ease-in-out, text-shadow .3s ease-in-out;
+}
+.services .quran p:last-child a:hover{
+    color: #f5ec6a;
+    text-shadow: 0 0 5px #726a00;
+}
+.foot {
+    padding: 50px 0;
+    text-align: center;
+    color: #ace2e4;
+    font-size: 1.4em;
+}
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    opacity: 0;
+    animation-name: updown;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.up a {
+    text-decoration: none;
+    color: #faebd7;
+    text-align: center;
+    font-size: 4.6em;
+}
+@keyframes updown {
+    0% {
+        bottom: 20px;
+    }
+    50% {
+        bottom: 30px;
+    }
+    100% {
+        bottom: 20px;
+    }
+}

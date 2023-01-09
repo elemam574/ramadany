@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to Ramadany Website, Enjoy with new ramadan features">
+    <meta name="keywords" content="Ramadan websites, Ramadan, Ramadany">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Vibes&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/54c7719416.js" crossorigin="anonymous"></script>
+    <title>Ramadany - Home</title>
+</head>
+
+<body>
+    <header class="head" id="myHeader">
+        <div class="logo" id="logoDiv">
+            <h1><a href="#">رمضاني</a></h1>
+            <p>رمضان في قلب بيتك</p>
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="links" id="linksList">
+            <nav class="navbar" id="nav">
+                <ul>
+                    <li><a href="#series">مسلسلات</a></li>
+                    <li><a href="#imsakia">امساكية</a></li>
+                    <li><a href="#doaa">دعاء</a></li>
+                    <li><a href="#quran">قرآن</a></li>
+                </ul>
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="main" id="mainSection">
+        <h1>رمضان السنة دي غير مع رمضاني ، وكل سنة وانت طيب</h1>
+        <p class="ema-fst">احنا موجودين علشان حضرتك تنبسط وانت بتاكل كنافة وقطايف</p>
+        <a href="#myServices"><input type="button" value="شوف خدماتنا"></a>
+        <p class="ema-sec">وممكن تتابعنا على : <a href="https://facebook.com/HamadaElEmam4"><i
+                    class="fa-brands fa-facebook-square"></i></a> <a href="https://twitter.com/HamadaEmam92"><i
+                    class="fa-brands fa-twitter-square"></i></a> <a
+                href="https://www.youtube.com/channel/UCek4Q2iRgoJI992HtJm8OSA"><i
+                    class="fa-brands fa-youtube-square"></i></a></p>
+    </section>
+    <section class="services" id="myServices">
+        <div class="intro-txt" id="introText">
+            <h1>خدماتنا</h1>
+            <p>بنقدملك أكتر من خدمة تسلي صيامك</p>
+            <hr>
+        </div>
+        <div class="series" id="series">
+            <h2>مسلسلات وبرامج رمضان</h2>
+            <p>معانا هتشوف مسلسلات وبرامج رمضان قبل ماتتعرض على التليفزيون</p>
+            <p><a href="./series.html">شوف أكتر <span class="lt">&lt&lt</span></a></p>
+        </div>
+        <div class="w3-content w3-display-container">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <img class="mySlides" src="./images/fst_img.jpg">
+            <img class="mySlides" src="./images/sec_img.jpg">
+            <img class="mySlides" src="./images/trd_img.jpg">
+            <img class="mySlides" src="./images/fth_img.jpg">
+
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <hr class="hr2">
+        <div class="imsakia" id="imsakia">
+            <h2>إمساكية شهر رمضان المبارك</h2>
+            <h3>اليوم</h3>
+            <p id="toDay"></p>
+            <p id="hijriDate"></p>
+            <img src="./images/imsakia-logo.jpg" alt="Imsakia Logo" style="width: 300px;" class="ims">
+            <div class="prayers" id="prayTimes">
+                <h4>مواقيت الصلاة لهذا اليوم</h4>
+                <iframe
+                    src="https://timesprayer.com/widgets.php?frame=1&amp;lang=ar&amp;name=cairo&amp;avachang=true&amp;time=0&amp;fcolor=00000A&amp;scolor=DCE5F2&amp;tcolor=01000D&amp;frcolor=00000A"
+                    style="border: none; overflow: hidden; margin-bottom: 20px; opacity: 0.6; border-radius: 30px;"></iframe>
+            </div>
+            <p><a href="https://img.youm7.com/ArticleImgs/2022/2/2/347042-WhatsApp-Image-2022-02-02-at-9.48.00-AM.jpeg">شوف
+                    الامساكية كاملة <span class="lt">&lt&lt</span></a></p>
+        </div>
+        <hr class="hr3">
+        <div class="doaa" id="doaa">
+            <h2>أدعية واذكار</h2>
+            <p>حلي رمضانك بأدعية واذكار رمضان واذكار الصباح والمساء</p>
+            <img src="./images/doaa_o.jpg" alt="Doaa One">
+            <p><a href="https://www.theislamicummah.org/adhkar.html" target="_blank">شوف الاذكار كاملة <span
+                        class="lt">&lt&lt</span></a></p>
+        </div>
+        <hr>
+        <div class="quran" id="quran">
+            <h2>القرآن الكريم</h2>
+            <p>رمضان ميحلاش اكيد من غير ورد قرآني يومي جميل</p>
+            <img src="./images/alfatiha.jpg" alt="Al Fatiha">
+            <p><a href="https://www.searchtruth.com/quran_reading/quran.html?resoft=1" target="_blank">القرآن الكريم
+                    كامل <span class="lt">&lt&lt</span></a></p>
+        </div>
+        <hr>
+    </section>
+    <footer class="foot">
+        <p>جميع الحقوق محفوظة 2022 &copy;<br>مع تحياتي : حمادة الامام</p>
+    </footer>
+    <div class="cir c1"></div>
+    <div class="cir c2"></div>
+    <div class="cir c3"></div>
+    <div class="cir c4"></div>
+    <div class="cir c5"></div>
+    <div class="cir c6"></div>
+    <div class="cir c7"></div>
+    <div class="up" id="up">
+        <a href="#"><i class="fa-solid fa-circle-up"></i></a>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

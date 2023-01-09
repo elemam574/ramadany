@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to Ramadany Website, Enjoy with new ramadan features">
+    <meta name="keywords" content="Ramadan websites, Ramadan, Ramadany">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Vibes&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/54c7719416.js" crossorigin="anonymous"></script>
+    <style>
+        .txt-sec {
+            padding: 200px 20px;
+            text-align: center;
+        }
+        .txt-sec h1 {
+            text-align: center;
+            font-size: 2.6em;
+            color: #ace2e4;
+            margin-bottom: 80px;
+        }
+        .hs {
+            margin-top: 600px;
+        }
+        @media (max-width:540px) {
+            .txt-sec h1 {
+            padding: 5px 0;
+            text-align: center;
+            font-size: 1.7em;
+            color: #ace2e4;
+            margin-bottom: 50px;
+            }
+        }
+        .txt-sec .series-sec {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 30px;
+        }
+        @media (max-width:950px) {
+            .txt-sec .series-sec {
+                grid-template-columns: auto;
+            }
+        }
+        @media (max-width:280px) {
+            .txt-sec .series-sec img {
+                width: 180px;
+                height: 210px;
+            }
+        }
+        .txt-sec .series-sec a {
+            transition: 0.6s all ease-in-out;
+            width: fit-content;
+            margin: 20px 0;
+            color: #faebd7;
+            text-decoration: none;
+            font-size: 1.7em;
+        }
+        .txt-sec .series-sec a:hover {
+            color: #f5ec6a;
+            text-shadow: 0 0 5px #726a00;
+        }
+        .txt-sec .series-sec img {
+            width: 280px;
+            height: 310px;
+            border-radius: 30px;
+        }
+        .up {
+            position: fixed;
+            bottom: 20px;
+            right: 50px;
+            opacity: 0;
+            animation-name: updown;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            transition: 0.3s all ease-in-out;
+        }
+        .up a {
+            text-decoration: none;
+            color: #faebd7;
+            text-align: center;
+            font-size: 4.6em;
+        }
+        @keyframes updown {
+            0% {
+                bottom: 20px;
+            }
+            50% {
+                bottom: 30px;
+            }
+            100% {
+                bottom: 20px;
+            }
+        }
+    </style>
+    <title>Ramadany - Series</title>
+</head>
+
+<body>
+    <header class="head" id="myHeader">
+        <div class="logo" id="logoDiv">
+            <h1><a href="./index.html">رمضاني</a></h1>
+            <p>رمضان في قلب بيتك</p>
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="links" id="linksList">
+            <nav class="navbar" id="nav">
+                <ul>
+                    <li><a href="#">مسلسلات</a></li>
+                    <li><a href="https://img.youm7.com/ArticleImgs/2022/2/2/347042-WhatsApp-Image-2022-02-02-at-9.48.00-AM.jpeg">امساكية</a></li>
+                    <li><a href="https://www.theislamicummah.org/adhkar.html">دعاء</a></li>
+                    <li><a href="https://www.searchtruth.com/quran_reading/quran.html?resoft=1">قرآن</a></li>
+                </ul>
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="txt-sec">
+        <h1>مسلسلات وبرامج رمضان</h1>
+        <div class="series-sec" id="seriesSection">
+            <div class="ser-one">
+                <a href="#">
+                    <img src="./images/1_Ramez_Movie_Star.jpg">
+                    <p>رامز موفي ستار</p>
+                </a>
+            </div>
+            <div class="ser-two">
+                <a href="#">
+                    <img src="./images/2_Btlo3_Elroo7.jpg">
+                    <p>بطلوع الروح</p>
+                </a>
+            </div>
+            <div class="ser-three">
+                <a href="#">
+                    <img src="./images/3_Kberr6.jpg">
+                    <p>الكبير ج٦</p>
+                </a>
+            </div>
+            <div class="ser-four">
+                <a href="#">
+                    <img src="./images/4-1_ElEkhtyar.jpg">
+                    <p>الاختيار ٣</p>
+                </a>
+            </div>
+            <div class="ser-five">
+                <a href="#">
+                    <img src="./images/5-1_RanyaWeSekena.jpg">
+                    <p>رانيا وسكينة</p>
+                </a>
+            </div>
+            <div class="ser-six">
+                <a href="#">
+                    <img src="./images/5_Touba.jpeg">
+                    <p>توبة</p>
+                </a>
+            </div>
+            <div class="ser-seven">
+                <a href="#">
+                    <img src="./images/6_ElMadda7.jpeg">
+                    <p>المداح ٢</p>
+                </a>
+            </div>
+            <div class="ser-eight">
+                <a href="#">
+                    <img src="./images/7_DayamanAmer.jpeg">
+                    <p>دايما عامر</p>
+                </a>
+            </div>
+            <div class="ser-nine">
+                <a href="#">
+                    <img src="./images/8_GazeretGhamam.jpeg">
+                    <p>جزيرة غمام</p>
+                </a>
+            </div>
+            <div class="ser-ten">
+                <a href="#">
+                    <img src="./images/9_Wgoh.jpg">
+                    <p>وجوه</p>
+                </a>
+            </div>
+            <div class="ser-eleven">
+                <a href="#">
+                    <img src="./images/10_Elser.jpeg">
+                    <p>السر</p>
+                </a>
+            </div>
+            <div class="ser-twelve">
+                <a href="#">
+                    <img src="./images/4_ElMshwar.jpg">
+                    <p>المشوار</p>
+                </a>
+            </div>
+            <div class="ser-thirteen">
+                <a href="#">
+                    <img src="./images/7-1_AlabwabElKhalfia.jpg">
+                    <p>الأبواب الخلفية</p>
+                </a>
+            </div>
+            <div class="ser-fourteen">
+                <a href="#">
+                    <img src="./images/11_FatenAmalHarby.jpeg">
+                    <p>فاتن أمل حربي</p>
+                </a>
+            </div>
+            <div class="ser-fiveteen">
+                <a href="#">
+                    <img src="./images/12_FiBaytnaRobot2.jpeg">
+                    <p>في بيتنا روبوت ٢</p>
+                </a>
+            </div>
+            <div class="ser-sixteen">
+                <a href="#">
+                    <img src="./images/13_elno2taelamiaa.jpg">
+                    <p>النقطة العامية</p>
+                </a>
+            </div>
+            <div class="ser-seventeen">
+                <a href="#">
+                    <img src="./images/14_in7raff.jpeg">
+                    <p>انحراف</p>
+                </a>
+            </div>
+            <div class="ser-eighteen">
+                <a href="#">
+                    <img src="./images/15_Maktoobalia.jpg">
+                    <p>مكتوب عليا</p>
+                </a>
+            </div>
+            <div class="ser-nineteen">
+                <a href="#">
+                    <img src="./images/16_Bablo.jpeg">
+                    <p>بابلو</p>
+                </a>
+            </div>
+            <div class="ser-twenty">
+                <a href="#">
+                    <img src="./images/17_BeetElShdda.jpeg">
+                    <p>بيت الشدة</p>
+                </a>
+            </div>
+            <div class="ser-twenty-one">
+                <a href="#">
+                    <img src="./images/18_Sho8lAaly.jpeg">
+                    <p>شغل عالي</p>
+                </a>
+            </div>
+            <div class="ser-twenty-two">
+                <a href="#">
+                    <img src="./images/19_AalmTany.jpeg">
+                    <p>عالم تاني</p>
+                </a>
+            </div>
+            <div class="ser-twenty-three">
+                <a href="#">
+                    <img src="./images/20_Rg3enYahawa.jpeg">
+                    <p>راجعين يا هوى</p>
+                </a>
+            </div>
+            <div class="ser-twenty-four">
+                <a href="#">
+                    <img src="./images/21_DonyaTanya.jpg">
+                    <p>دنيا تانية</p>
+                </a>
+            </div>
+        </div>
+        <hr class="hs">
+    </section>
+    <footer class="foot">
+        <p>جميع الحقوق محفوظة 2022 &copy;<br>مع تحياتي : حمادة الامام</p>
+    </footer>
+
+    <div class="cir c1"></div>
+    <div class="cir c2"></div>
+    <div class="cir c3"></div>
+    <div class="cir c4"></div>
+    <div class="cir c5"></div>
+    <div class="cir c6"></div>
+    <div class="cir c7"></div>
+    <div class="up" id="up">
+        <a href="#"><i class="fa-solid fa-circle-up"></i></a>
+    </div>
+
+    <script src="./js/main-se.js"></script>
+</body>
+
+</html>
